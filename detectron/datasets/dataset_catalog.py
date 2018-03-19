@@ -178,6 +178,14 @@ _DATASETS = {
         _DEVKIT_DIR:
             _DATA_DIR + '/VOC2007/VOCdevkit2007'
     },
+    'voc_2007_trainval': {
+        _IM_DIR:
+            _DATA_DIR + '/VOC2007/JPEGImages',
+        _ANN_FN:
+            _DATA_DIR + '/VOC2007/annotations/voc_2007_trainval.json',
+        _DEVKIT_DIR:
+            _DATA_DIR + '/VOC2007/VOCdevkit2007'
+    },
     'voc_2007_test': {
         _IM_DIR:
             _DATA_DIR + '/VOC2007/JPEGImages',
@@ -199,6 +207,62 @@ _DATASETS = {
             _DATA_DIR + '/VOC2012/JPEGImages',
         _ANN_FN:
             _DATA_DIR + '/VOC2012/annotations/voc_2012_val.json',
+        _DEVKIT_DIR:
+            _DATA_DIR + '/VOC2012/VOCdevkit2012'
+    },
+    'voc_2012_trainval': {
+        _IM_DIR:
+            _DATA_DIR + '/VOC2012/JPEGImages',
+        _ANN_FN:
+            _DATA_DIR + '/VOC2012/annotations/voc_2012_trainval.json',
+        _DEVKIT_DIR:
+            _DATA_DIR + '/VOC2012/VOCdevkit2012'
+    },
+    'voc_2007_train_noisy': {
+        _IM_DIR:
+            _DATA_DIR + '/VOC2007/JPEGImages',
+        _ANN_FN:
+            _DATA_DIR + '/VOC2007/annotations/voc_2007_train_noisy.json',
+        _DEVKIT_DIR:
+            _DATA_DIR + '/VOC2007/VOCdevkit2007'
+    },
+    'voc_2007_val_noisy': {
+        _IM_DIR:
+            _DATA_DIR + '/VOC2007/JPEGImages',
+        _ANN_FN:
+            _DATA_DIR + '/VOC2007/annotations/voc_2007_val_noisy.json',
+        _DEVKIT_DIR:
+            _DATA_DIR + '/VOC2007/VOCdevkit2007'
+    },
+    'flickr_voc': {
+        _IM_DIR:
+            _DATA_DIR + '/flickr_voc/images',
+        _ANN_FN:
+            _DATA_DIR + '/flickr_voc/images.json',
+        _DEVKIT_DIR:
+            _DATA_DIR + '/VOC2007/VOCdevkit2007'
+    },
+    'flickr_coco': {
+        _IM_DIR:
+            _DATA_DIR + '/flickr_coco/images',
+        _ANN_FN:
+            _DATA_DIR + '/flickr_coco/images.json',
+        _DEVKIT_DIR:
+            _DATA_DIR + '/VOC2007/VOCdevkit2007'
+    },
+    'flickr_clean': {
+        _IM_DIR:
+            _DATA_DIR + '/flickr_clean/image',
+        _ANN_FN:
+            _DATA_DIR + '/flickr_clean/image.json',
+        _DEVKIT_DIR:
+            _DATA_DIR + '/VOC2007/VOCdevkit2007'
+    },
+    'voc_2012_test': {
+        _IM_DIR:
+            _DATA_DIR + '/VOC2012/JPEGImages',
+        _ANN_FN:
+            _DATA_DIR + '/VOC2012/annotations/voc_2012_test.json',
         _DEVKIT_DIR:
             _DATA_DIR + '/VOC2012/VOCdevkit2012'
     }
