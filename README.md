@@ -13,7 +13,7 @@ This project is based on [Detectron](https://github.com/facebookresearch/Detectr
 
 ## License
 
-NA-fWebSOD is released under the [Apache 2.0 license](https://github.com/shenyunhang/NA-fWebSOD/blob/master/LICENSE). See the [NOTICE](https://github.com/shenyunhang/NA-fWebSOD/blob/master/LICENSE) file for additional details.
+NA-fWebSOD is released under the [Apache 2.0 license](https://github.com/shenyunhang/NA-fWebSOD/blob/NA-fWebSOD/LICENSE). See the [NOTICE](https://github.com/shenyunhang/NA-fWebSOD/blob/NA-fWebSOD/NOTICE) file for additional details.
 
 
 ## Citing NA-fWebSOD
